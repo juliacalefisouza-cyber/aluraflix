@@ -1,0 +1,57 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(218, 165, 32); /* dourado */
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(218, 165, 32); /* dourado */
+}
+
+.chamada {
+    background: rgb(138, 43, 226); /* roxo Rapunzel */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(255, 223, 100); /* título em tom dourado */
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+img {
+    height: 200px;
+    border-radius: 10px; /* bordas arredondadas ficam mais bonitas */
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05); /* efeito zoom ao passar o mouse */
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
